@@ -21,6 +21,7 @@ export class LoginForm extends Component {
 
     onSubmitSuccess = () => {
         const history = useHistory();
+        // const {history} = this.props
         history.replace('/')
     }
 
